@@ -333,6 +333,8 @@ s
 .hero-text {
     font-size: var(--fs-6);
     margin-block: 16px 30px;
+    color: black;
+    font-weight: var(--fw-700);
 }
 
 .hero .price {
