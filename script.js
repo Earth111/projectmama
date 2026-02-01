@@ -39,7 +39,7 @@ const headerActive = function () {
     }
 }
 
-addEventOnElem(window,"scroll",headerActive);
+addEventOnElem(window, "scroll", headerActive);
 
 let lastScrolledPos = 0;
 

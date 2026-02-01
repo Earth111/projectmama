@@ -176,7 +176,7 @@ s
     transition: var(--transition-2);
 }
 
-.header-top.header-hide {
+.header-top .header-hide {
     box-shadow: none;
     transform: translateY(0);
 }
@@ -333,7 +333,7 @@ s
 .hero-text {
     font-size: var(--fs-6);
     margin-block: 16px 30px;
-    color: black;
+    color: white;
     font-weight: var(--fw-700);
 }
 
@@ -391,10 +391,13 @@ s
 
 .collection-card .card-title {
     margin-block-end: 12px;
+    color: aqua;
+    font-weight: var(--fw-800);
+    font-size: var(--fs-1);
 }
 
 .collection-card .card-text {
-    color: greenyellow;
+    color: rgb(6, 255, 172);
     font-size: var(--fs-6);
     font-weight: var(--fw-600);
     margin-block-end: auto;
@@ -643,7 +646,7 @@ s
         color: var(--white);
         font-size: var(--fs-9);
         min-width: 18px;
-        height: 28px;
+        height: 26px;
         line-height: 1.4;
         border-radius: 20px;
     }
@@ -676,7 +679,7 @@ s
         gap: 45px;
     }
 
-    .navbar .navbar-link {
+    .navbar .navbar-list {
         color: var(--black);
         font-size: var(--fs-7);
         font-weight: var(--fw-600);
