@@ -578,7 +578,7 @@ s
     line-height: 1;
 }
 
-@media (min-width: 100px) {
+@media (min-width: 1000px) {
     .container {max-width: 100%;}
     .scrollbar-item {min-width: calc(25% - 24px);}
 
